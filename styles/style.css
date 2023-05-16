@@ -1,0 +1,53 @@
+/* Import the font from Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+/* Apply the font to the heading elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* Apply a new font to the entire page */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* Give the header and footer sections a border and background color */
+header, footer {
+border: 0.5px solid black;
+background-color: rgb(236, 236, 236);
+padding: 20px;
+text-align: center;
+}
+
+/* Give the main content section a background color */
+main {
+background-color: whitesmoke;
+}
+
+/* Italicize any book titles */
+.book-title {
+font-style: italic;
+}
+
+/* Apply a new color to each heading element */
+h1 {
+color: #d88dfb;
+}
+
+h2 {
+color: #dd96d1;
+}
+
+h3 {
+color: #f3cc78;
+}
+
+/* Display a different color when the mouse rolls over the navigational links */
+nav a:hover {
+color: rgb(255, 0, 208);
+}
+
+/* Hide the bullet points of the unordered lists */
+ul {
+list-style-type: none;
+}

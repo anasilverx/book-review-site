@@ -1,0 +1,9 @@
+/* contact.html */
+main {
+    text-align: center;
+}
+
+/* Round the corners of the site maintainer image */
+.site-maintainer-img {
+border-radius: 50%;
+}
